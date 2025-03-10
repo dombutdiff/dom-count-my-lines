@@ -74,7 +74,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-block: 32px;
+    /* padding-block: 32px; */
     transition: all 0.3s ease;
     
 }
@@ -102,6 +102,8 @@ header {
     right: 16px;
     z-index: 1000;
 }
+
+
 
 .logoImg {
     background-color: var(--bg-yellow);
@@ -222,6 +224,13 @@ main {
 
 .content p {
     font-weight: 600;
+}
+
+footer p {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    font-size: 12px;
 }
 
 @media (max-width: 1050px) {
