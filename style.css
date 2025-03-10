@@ -90,6 +90,7 @@ header {
     height: 60px;
     padding-inline: clamp(0px, 10vw, 16px);
     background-color: rgba(65, 65, 65, 0.553);
+    -webkit-backdrop-filter: blur(16px);
     backdrop-filter: blur(16px);
     border-radius: 50px;
     display: flex;
