@@ -176,6 +176,7 @@ main {
     resize: none;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    transition: 0.3s ease;
 }
 
 .textCounter::-webkit-scrollbar {
